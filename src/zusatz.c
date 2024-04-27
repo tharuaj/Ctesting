@@ -1,3 +1,6 @@
+#include"../include/lol.h"
+
+
 void test()
 {
     char name [] = "Ajay is my name."; // strings are saved as characters in Array
@@ -25,17 +28,17 @@ void test()
 void inputs()
 {
    //Input and Output-----------------
-    char uni ;
+    char uni[50] ;
     int d;
 
-    printf("\n Enter your Hochschule: ");
-    scanf("%c",&uni);
-    printf("\nHochschule is: ",uni);
-/*
+    printf("\nEnter your Hochschule: ");
+    scanf("%s",&uni);
+    printf("\nHochschule is: %s\n",uni);
+
     printf("Give an Integer: ");
     scanf("%d",&d);
     printf("\nThe Integer is: %d",d);
-*/  
+  
 }
 
 void integer_promotions(){
