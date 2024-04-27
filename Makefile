@@ -1,0 +1,1 @@
+gcc -o ../build/goo.exe -I/include main.c ../src/zusatz.c
